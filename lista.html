@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="assets/css/lugarStyles.css">
+<link rel="stylesheet" href="assets/color3/colorbox.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="assets/color3/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+.style3 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFFF; font-weight: bold;text-decoration: none; }
+.style4 {font-size: 14px; color: #FFFFFF; text-decoration: none; font-family: Arial, Helvetica, sans-serif;}
+-->
+</style>
+
+</head>
+
+<body>
+<table width="806" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="119" valign="top" background="images/titulo_lista.jpg"><table width="730" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="images/spacer.gif" width="20" height="20" /></td>
+      </tr>
+      <tr>
+        <td><div align="left" class="style1">ALIMENTOS</div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="100%" valign="top" background="images/fondo_lista.jpg" bgcolor="#000000"><table width="680" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><table width="300" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="128" valign="top"><img src="images/foto_lista.png" width="128" height="132" /></td>
+              <td width="10"><img src="images/spacer.gif" width="20" height="20" /></td>
+              <td width="162"><table width="170" border="0" cellspacing="2" cellpadding="0">
+                  <tr>
+                    <td><div align="left" class="subtitle">Sunset Baja</div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="descrLista">Seafood and Drinks</div></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/spacer.gif" width="20" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/franja_lista.png" width="170" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="deluxeLista">DeLuxe</div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="descuentoLista">10% de Descuento</div></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/spacer.gif" width="20" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><table width="170" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="17"><img src="images/triangulo.png" width="17" height="12" /></td>
+                          <td width="10"><img src="images/spacer.gif" width="10" height="10" /></td>
+                          <td width="143"><div align="left" class="masLista">Más...</div></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table></td>
+          <td><img src="images/spacer.gif" width="40" height="20" /></td>
+          <td><table width="300" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="128" valign="top"><img src="images/foto_lista.png" width="128" height="132" /></td>
+              <td width="10"><img src="images/spacer.gif" width="20" height="20" /></td>
+              <td width="162"><table width="170" border="0" cellspacing="2" cellpadding="0">
+                  <tr>
+                    <td><div align="left" class="subtitle">Sunset Baja</div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="descrLista">Seafood and Drinks</div></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/spacer.gif" width="20" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/franja_lista.png" width="170" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="deluxeLista">DeLuxe</div></td>
+                  </tr>
+                  <tr>
+                    <td><div align="left" class="descuentoLista">10% de Descuento</div></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/spacer.gif" width="20" height="7" /></td>
+                  </tr>
+                  <tr>
+                    <td><table width="170" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="17"><img src="images/triangulo.png" width="17" height="12" /></td>
+                          <td width="10"><img src="images/spacer.gif" width="10" height="10" /></td>
+                          <td width="143"><div align="left" class="masLista">Más...</div></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td height="204" background="images/abajo_lista.jpg">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,7 @@
+[06-Jun-2013 23:01:38 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/dandy160/public_html/assets/ups/logos_resize.php on line 6
+[06-Jun-2013 23:41:57 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/dandy160/public_html/assets/ups/logos_resize.php on line 12
+[10-Jun-2013 13:33:43 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/assets/ups/logos_resize.php on line 44
+[10-Jun-2013 13:34:32 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/assets/ups/logos_resize.php on line 45
+[11-Jun-2013 14:21:53 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/assets/ups/upload_only_logos.php on line 36
+[11-Jun-2013 14:22:36 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/assets/ups/upload_only_logos.php on line 34
+[11-Jun-2013 14:31:29 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/dandy160/public_html/assets/ups/upload_only_logos.php on line 18

@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+	font-family: "font_bureau__stainlessextlight";
+	src:url("../fonts/font_bureau__stainlessextlight.ttf");
+}
+@font-face {
+	font-family: "font_bureau__stainlessextbold";
+	src:url("../fonts/font_bureau__stainlessextbold.ttf")
+}
+
+@font-face {
+	font-family: "font_bureau__stainlessextregular";
+	src:url("../fonts/font_bureau__stainlessextregular.ttf")
+}
+
+@font-face {
+	font-family: "HelveticaNeueLight";
+	src:url("../fonts/HelveticaNeue-Light.otf")
+}
+@font-face {
+	font-family: "HelveticaNeueRoman";
+	src:url("../fonts/HelveticaNeue-Roman.otf")
+}
+.top{
+	width:820px;
+	height:200px;
+}
+
+.top img{
+	border:medium #FFF double; 
+	width:350px; 
+	height:200px;
+	float:left;
+}
+
+.container p{
+	float:left;
+	width:410px;
+}
+
+.referencia{
+	width:350px;
+	height:auto;
+	font-size:14px;
+}
+
+.middle{
+	width:800px;
+	height:350px;
+	margin-top:30px;
+}
+
+.datos{
+	width:360px;
+	height:auto;
+	float:left;
+}
+
+.mapa{
+	width:400px; 
+	height:200px;
+	float:left;
+}
+
+.facebook{
+	width:30px;
+	height:60px;
+}
+
+
+
+.bottom{
+	width:800px;
+	height:350px; /*mientras se cargan promociones*/
+}
+
+.derecha{
+	float:left;
+	width:430px;
+	height:auto;
+}
+.direccionDetalle{
+	text-align:center;
+	font-size:16px;
+	color:#de3c12;	
+	line-height: 200%;
+	font-family: "font_bureau__stainlessextregular";
+	
+}
+.referenciaDetalle{
+	text-align:center;
+	font-size:12px;
+	color:#ffffff;
+	
+	font-family: "font_bureau__stainlessextregular";
+	
+}
+.horarioDetalle{
+	text-align:center;
+	font-size:11px;
+	color:#ff0000;
+	font-family: "font_bureau__stainlessextregular";
+	
+}
+.textoConocenos {
+font-size: 12px; 
+color: #FFFFFF; 
+line-height: 150%;
+text-decoration: none; 
+font-family:"font_bureau__stainlessextlight";
+}
+.textoDetalle{
+	text-align:justify;
+	font-size:15px;
+	color:#ffffff;
+	line-height: 158%;
+	font-family: "HelveticaNeueLight";
+	
+}
+.vigenciaBeneficio{
+	text-align:justify;
+	font-size:15px;
+	color:#ffffff;
+	font-family: "HelveticaNeueRoman";
+	
+}
+.tituloDetalle{
+	text-align:left;
+	font-size:26px;
+	color:#f94314;	
+	
+	font-family: "font_bureau__stainlessextlight";
+	
+}
+.benedicioTipo{
+	text-align:left;
+	font-size:22px;
+	color:#c9c9c9;	
+	height:30px;
+	font-family: "font_bureau__stainlessextlight";
+	
+}
+.benedicioTipo2{
+	text-align:left;
+	font-size:22px;
+	color:#acf8ff;	
+	height:30px;
+	font-family: "font_bureau__stainlessextlight";
+	
+}
+.benedicio{
+	text-align:left;
+	font-size:15px;
+	color:#f10000;	
+	height:30px;
+	font-family: "font_bureau__stainlessextregular";
+	
+}
+.subtitle{
+	text-align:left;
+	font-size:21px;
+	color:#f94314;
+	
+	
+	font-family: "font_bureau__stainlessextlight";
+	text-decoration: none;
+}
+
+.promocionesImg{
+	margin-top:20px;
+	width:200px;
+	height:126px;
+	float:left;
+}
+
+.promocionesTxt{
+	margin-top:20px;
+	width:200px;
+	height:126px;
+	float:left;
+}
+
+.contenidoNegritas {
+font-size: 14px; 
+color: #FFFFFF; 
+
+text-decoration: none;
+font-family:"font_bureau__stainlessextlight";
+}
+.contenidoNegritasCH {
+font-size: 12px; 
+color: #FFFFFF; 
+
+text-decoration: none;
+font-family:"font_bureau__stainlessextlight";
+}
+.contenido {
+font-size: 12px; 
+color: #FFFFFF; 
+text-decoration: none; 
+font-family:"font_bureau__stainlessextlight";
+}
+.numeroContador {
+font-size: 12px; 
+color: #FFFFFF;
+font-size:21px;
+font-family: "font_bureau__stainlessextlight";
+}	
+.direccionLista {
+font-size: 10px; 
+color: #FFFFFF; 
+text-decoration: none; 
+font-family:"font_bureau__stainlessextlight";
+}
+
+.horarioNaranja {
+font-size: 12px; 
+color:#C7551F
+font-family:"font_bureau__stainlessextlight";
+}
+.subtitleCentrado{
+	text-align:center;
+	font-size:20px;
+	color:#c7551f;
+	width:300px;
+	height:30px;
+	font-family:"font_bureau__stainlessextlight";
+	text-decoration: none;
+}
+.descrLista{
+	text-align:left;
+	font-size:18px;
+	color:#c9c9c9;
+	font-family: "HelveticaNeueLight";
+	text-decoration: none;
+}
+.titLista{
+	text-align:left;
+	font-size:21px;
+	color:#f94314;
+	font-family: "font_bureau__stainlessextlight";
+	text-decoration: none;
+}
+.deluxeLista{
+	text-align:left;
+	font-size:16px;
+	color:#c9c9c9;
+	font-family: "font_bureau__stainlessextregular";
+	text-decoration: none;
+}
+.descuentoLista{
+	text-align:left;
+	font-size:16px;
+	color:#ff0000;
+	font-family: "HelveticaNeueLight";
+	text-decoration: none;
+}
+.masLista{
+	text-align:left;
+	font-size:12px;
+	color:#ffffff;
+	font-family: "font_bureau__stainlessextlight";
+	text-decoration: none;
+}
+
+.headerLista{
+	text-align:left;
+	font-size:26px;
+	color:#ffffff;
+	font-family: "font_bureau__stainlessextlight";
+	text-decoration: none;
+}
+.boton{
+	width:242px;
+	height:48px;
+	margin-left:90px;
+	margin-right:auto;
+	font-size:15px;
+	float:left;
+	color:#FFF;
+	background-image:url(../imgs/button.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	border:none;
+	margin-bottom:30px;
+	cursor:pointer;
+	font-family: font_bureau__stainlessextlight;
+}

@@ -1,0 +1,306 @@
+/* CSS Document */
+
+@font-face {
+<!--[if !IE]>
+	font-family: font_bureau__stainlessextbold;
+	src:url(../fonts/font_bureau__stainlessextbold.ttf);
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+<![endif]-->
+}
+
+@font-face {
+<!--[if !IE]>
+	font-family: font_bureau__stainlessextlight;
+	src:url(../fonts/font_bureau__stainlessextlight.ttf);
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+<![endif]-->
+}
+
+@font-face {
+<!--[if !IE]>
+	font-family: font_bureau__stainlessextregular;
+	src:url(../fonts/font_bureau__stainlessextregular.ttf);
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+<![endif]-->
+}
+
+body {
+	background:url(../imgs/bg.png) repeat;
+}
+
+#mainBg {
+	width:1062px;
+	height:1542px;
+	background:url(../imgs/maingBg.png) no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	padding-top:10px;
+}
+
+#logo {
+	width:495px;
+	height:325px;
+	background:url(../imgs/logoBig.png) no-repeat;
+}
+#logow {
+	width:1000px;
+	height:325px;
+	background:url(../imgs/logoBig.png) no-repeat;
+}
+#header {
+	height:492px;
+	width:1062px;
+	display:block;
+}
+#header2 {
+	height:372px;
+	width:1062px;
+	display:block;
+}
+
+#vid {
+	background:url(../imgs/vid2.png) no-repeat;
+	width:492px;
+	height:293px;
+	margin-left:35px;
+	margin-right:auto;
+	margin-top:6px;
+	float:left;
+}
+#vid2 {
+	
+	width:492px;
+	height:293px;
+	margin-left:35px;
+	margin-right:auto;
+	margin-top:16px;
+	float:left;
+}
+
+#menuTop ul{
+	list-style-type:none;
+	width:200px;
+	height:110px;
+	float:left;
+	margin-left:80px;
+	padding-top:140px;
+	padding-left:80px;
+}
+
+#menuTop ul li{
+	padding-bottom:2px;
+}
+
+#menuTop ul li a{
+	text-decoration:none;
+	color:#FFF;
+	padding-left:30px;
+<!--[if !IE]>
+	font-family:font_bureau__stainlessextbold;
+<![endif]-->
+	font-size:9px;
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+<![endif]-->
+}
+
+#menuTop ul li a:hover{
+	color:#ff5900;
+}
+
+#main {
+	width:878px;
+	height:755px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-200px;
+}
+
+#menuCenter{
+	width:840px;
+	height:43px;
+	background:url(../imgs/menuBg.png) no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#menuCenter ul{
+	list-style-type:none;
+	width:840px;
+	height:43px;
+	margin-left:-35px;
+	margin-right:auto;
+}
+
+#menuCenter ul li{
+	float:left;
+	margin-right:32px;
+	margin-top:10px;
+}
+
+#menuCenter ul li a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:9px;
+<!--[if !IE]>
+	font-family:font_bureau__stainlessextbold;
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+<![endif]-->
+}
+
+#menuCenter ul li a:hover{
+	color:#ff5900;
+}
+
+#center{
+	width:878px;
+	height:724px;
+	margin-top:-10px;
+	padding-top:30px;
+	background:url(../imgs/mainBg.png) no-repeat;
+}
+
+#clientContainer{
+	width:824px;
+	height:657px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#client{
+	width:844px;
+	height:673px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-x: hidden;
+	overflow-y:scroll;
+	border:none;
+	background: url(../imgs/bg1.png) no-repeat;
+	
+}
+
+#client ul{
+	list-style-type:none;
+	width:824px;
+	margin-left:-20px;
+	float:left;
+}
+
+#client ul li{
+	width:184px;
+	height:184px;
+	margin-left:10px;
+	margin-top:20px;
+	float:left;
+	background:url(../imgs/square.png) no-repeat;
+}
+
+#client ul li img{
+	height:130px;
+	width:130px;
+	margin-top:25px;
+	margin-left:26px;
+}
+
+.logo{
+	margin-top:auto;
+	margin-bottom:auto;
+	position:relative;	
+}
+
+#footer {
+	color:#6a6a6a;
+	width:1062px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:30px;
+}
+
+#mailForm{
+	width:700px;
+	height:640px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+<!--[if !IE]>
+	font-family: font_bureau__stainlessextlight;
+<![endif]-->
+	color:#ff5900;
+	font-size:12px;
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+<![endif]-->
+}
+
+.clear	{
+	clear:both;
+	display:block; 
+	overflow:hidden; 
+	visibility:hidden; 
+	width:0; 
+	height:0;
+}
+
+#login{
+    width: 100%;
+    text-align: center;
+}
+
+.log_back{
+    width: 300px;
+    height: 130px;
+    margin:0 auto;
+    background-color: #cccccc;
+}
+
+.log_tittle{
+    background-color: #0063dc;
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+}
+.letrasMenu{
+text-decoration:none;
+	color:#FFF;
+	font-size:9px;
+<!--[if !IE]>
+	font-family:font_bureau__stainlessextbold;
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+<![endif]-->
+}
+.letrasMenu2{
+text-decoration:none;
+	color:#FFF;
+	font-size:9px;
+<!--[if !IE]>
+	font-family:font_bureau__stainlessextbold;
+<![endif]-->
+<!--[if IE]>
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+<![endif]-->
+}
+  a:hover{
+	color:#ff5900;
+}z

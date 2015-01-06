@@ -1,0 +1,52 @@
+/* CSS Document */
+@font-face {
+	font-family: font_bureau__stainlessextlight;
+	src:url(../fonts/font_bureau__stainlessextlight.ttf);
+}
+
+@font-face {
+	font-family: font_bureau__stainlessextregular;
+	src:url(../fonts/font_bureau__stainlessextregular.ttf)
+}
+
+#logo_inter{
+	position:absolute;
+	right:140px;
+	margin-top:20px;
+	z-index:4;
+	width:184px;
+	height:184px;
+	background:url(../imgs/square.png) no-repeat;
+}
+
+#logo_inter img{
+	height:130px;
+	width:130px;
+	margin-top:25px;
+	margin-left:26px;
+}
+
+#About{
+	color:#FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left:50px;
+	padding-right:50px;
+	font-size:14px;
+	text-align:justify;
+}
+
+p{
+	font-size:14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+
+h1{
+	font-family: font_bureau__stainlessextregular;
+	color:#FFF;
+	padding-left:50px;
+	font-size:24px;
+}

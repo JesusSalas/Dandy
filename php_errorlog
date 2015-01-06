@@ -1,0 +1,180 @@
+[04-May-2013 22:01:57 CST6CDT] PHP Fatal error:  Call to a member function post() on a non-object in /home/dandy160/public_html/application/controllers/index.php on line 105
+[04-May-2013 22:10:39 CST6CDT] PHP Fatal error:  Call to a member function post() on a non-object in /home/dandy160/public_html/application/controllers/index.php on line 105
+[04-May-2013 22:18:15 CST6CDT] PHP Fatal error:  Call to a member function post() on a non-object in /home/dandy160/public_html/application/controllers/index.php on line 105
+[04-May-2013 22:21:52 CST6CDT] PHP Fatal error:  Call to a member function post() on a non-object in /home/dandy160/public_html/application/controllers/index.php on line 111
+[04-May-2013 22:51:43 CST6CDT] PHP Fatal error:  Call to undefined method Qlink_emp::getByCategoria() in /home/dandy160/public_html/application/controllers/index.php on line 26
+[04-May-2013 22:52:25 CST6CDT] PHP Fatal error:  Call to undefined method Qlink_emp::getByCategoria() in /home/dandy160/public_html/application/controllers/index.php on line 26
+[04-May-2013 22:52:29 CST6CDT] PHP Fatal error:  Call to undefined method Qlink_emp::getByCategoria() in /home/dandy160/public_html/application/controllers/index.php on line 26
+[04-May-2013 22:52:34 CST6CDT] PHP Fatal error:  Call to undefined method Qlink_emp::getByCategoria() in /home/dandy160/public_html/application/controllers/index.php on line 26
+[04-May-2013 22:53:51 CST6CDT] PHP Fatal error:  Call to undefined function result() in /home/dandy160/public_html/application/controllers/index.php on line 27
+[11-May-2013 19:57:11 CST6CDT] PHP Fatal error:  Call to a member function getByUsuario() on a non-object in /home/dandy160/public_html/application/controllers/login.php on line 16
+[12-May-2013 17:10:34 CST6CDT] PHP Fatal error:  Cannot redeclare class Model_empresas in /home/dandy160/public_html/application/models/model_promociones.php on line 54
+[12-May-2013 17:11:38 CST6CDT] PHP Fatal error:  Call to undefined function formclose() in /home/dandy160/public_html/application/views/view_patrocinadores.php on line 49
+[12-May-2013 19:24:31 CST6CDT] PHP Fatal error:  Cannot redeclare Promociones::add() in /home/dandy160/public_html/application/controllers/promociones.php on line 15
+[12-May-2013 19:25:55 CST6CDT] PHP Fatal error:  Call to a member function insert() on a non-object in /home/dandy160/public_html/application/controllers/promociones.php on line 34
+[13-May-2013 10:03:42 CST6CDT] PHP Fatal error:  Call to a member function getByUsuario() on a non-object in /home/dandy160/public_html/application/controllers/puntos.php on line 13
+[13-May-2013 10:04:10 CST6CDT] PHP Fatal error:  Call to a member function getByUsuario() on a non-object in /home/dandy160/public_html/application/controllers/puntos.php on line 13
+[13-May-2013 10:04:12 CST6CDT] PHP Fatal error:  Call to a member function getByUsuario() on a non-object in /home/dandy160/public_html/application/controllers/puntos.php on line 13
+[28-May-2013 11:51:22 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[28-May-2013 11:51:28 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[28-May-2013 12:02:40 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[28-May-2013 12:02:53 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[28-May-2013 12:02:58 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[28-May-2013 12:03:32 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[05-Jun-2013 13:24:18 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[05-Jun-2013 13:26:06 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 5
+[05-Jun-2013 14:10:37 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[05-Jun-2013 14:13:12 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[05-Jun-2013 14:27:17 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[05-Jun-2013 14:58:10 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[05-Jun-2013 14:58:15 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[06-Jun-2013 15:56:26 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/dandy160/public_html/ver_lugar.php on line 51
+[07-Jun-2013 13:34:33 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[11-Jun-2013 11:32:21 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[14-Jun-2013 15:26:12 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[17-Jun-2013 12:39:32 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/lista.php on line 232
+[17-Jun-2013 14:08:54 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/detalle.php on line 331
+[18-Jun-2013 13:42:11 CST6CDT] PHP Fatal error:  Class 'Mail' not found in /home/dandy160/public_html/f_contacto.php on line 91
+[18-Jun-2013 13:59:02 CST6CDT] PHP Fatal error:  Call to undefined function IsSMTP() in /home/dandy160/public_html/f_contacto.php on line 92
+[18-Jun-2013 14:04:01 CST6CDT] PHP Parse error:  syntax error, unexpected '@' in /home/dandy160/public_html/f_contacto.php on line 107
+[18-Jun-2013 14:04:55 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/dandy160/public_html/f_contacto.php on line 97
+[18-Jun-2013 14:06:18 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/dandy160/public_html/f_contacto.php on line 97
+[18-Jun-2013 14:06:30 CST6CDT] PHP Fatal error:  Class 'PHPMailer' not found in /home/dandy160/public_html/f_contacto.php on line 97
+[18-Jun-2013 14:07:08 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class.phpmailer.php' (include_path='.:/usr/local/php53/pear') in /home/dandy160/public_html/f_contacto.php on line 11
+[18-Jun-2013 14:11:17 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'phpmailer.php' (include_path='.:/usr/local/php53/pear') in /home/dandy160/public_html/f_contacto.php on line 11
+[18-Jun-2013 15:30:13 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[19-Jun-2013 12:22:19 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[19-Jun-2013 13:08:23 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[20-Jun-2013 20:00:39 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[20-Jun-2013 22:19:57 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[21-Jun-2013 00:08:40 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[21-Jun-2013 11:54:01 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[21-Jun-2013 12:28:16 CST6CDT] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/dandy160/public_html/lista2.php on line 171
+[21-Jun-2013 13:13:49 CST6CDT] PHP Fatal error:  Call to undefined function base_url() in /home/dandy160/public_html/f_pv.php on line 23
+[21-Jun-2013 20:47:29 CST6CDT] PHP Fatal error:  Class 'Mail' not found in /home/dandy160/public_html/f_registro.php on line 178
+[14-Feb-2014 13:40:12 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/dandy160/public_html/f_registro.php on line 63
+[14-Feb-2014 13:40:29 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/dandy160/public_html/f_registro.php on line 63
+[14-Feb-2014 13:42:00 CST6CDT] PHP Parse error:  syntax error, unexpected '.' in /home/dandy160/public_html/f_registro.php on line 71
+[14-Feb-2014 13:42:48 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING in /home/dandy160/public_html/f_registro.php on line 160
+[14-Feb-2014 13:47:14 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/f_registro.php on line 171
+[14-Feb-2014 14:09:20 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/f_registro.php on line 115
+[14-Feb-2014 14:09:47 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/f_registro.php on line 115
+[14-Feb-2014 14:16:10 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/f_registro.php on line 343
+[14-Feb-2014 14:16:24 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/f_registro.php on line 343
+[14-Feb-2014 14:41:53 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 14:43:07 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 14:45:27 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 14:46:54 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 14:49:26 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 14:49:51 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/usuarios.php on line 125
+[14-Feb-2014 15:01:26 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/usuarios.php on line 213
+[17-Feb-2014 11:44:35 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/f_registro.php on line 58
+[17-Feb-2014 11:45:03 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/f_registro.php on line 58
+[17-Feb-2014 11:45:55 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/f_registro.php on line 58
+[17-Feb-2014 11:46:12 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/f_registro.php on line 58
+[17-Feb-2014 12:28:50 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/index.php on line 3
+[17-Feb-2014 12:29:31 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/index.php on line 3
+[17-Feb-2014 12:29:34 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/index.php on line 3
+[17-Feb-2014 12:30:12 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/index.php on line 3
+[17-Feb-2014 12:31:39 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/f_registro.php on line 193
+[17-Feb-2014 12:32:19 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/f_registro.php on line 259
+[17-Feb-2014 12:53:34 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/dandy160/public_html/f_registro.php on line 401
+[17-Feb-2014 12:54:33 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/dandy160/public_html/f_registro.php on line 401
+[18-Feb-2014 12:34:09 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/dandy160/public_html/menu.php on line 34
+[18-Feb-2014 12:34:27 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/dandy160/public_html/menu.php on line 34
+[18-Feb-2014 12:34:44 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/dandy160/public_html/menu.php on line 34
+[18-Feb-2014 12:35:33 CST6CDT] PHP Parse error:  syntax error, unexpected ',' in /home/dandy160/public_html/menu.php on line 34
+[18-Feb-2014 12:37:28 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/dandy160/public_html/menu.php on line 35
+[18-Feb-2014 12:37:50 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/dandy160/public_html/menu.php on line 35
+[18-Feb-2014 12:39:19 CST6CDT] PHP Parse error:  syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/menu.php on line 237
+[18-Feb-2014 12:39:42 CST6CDT] PHP Parse error:  syntax error, unexpected '-', expecting ']' in /home/dandy160/public_html/menu.php on line 237
+[18-Feb-2014 12:55:23 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/menu.php on line 291
+[18-Feb-2014 12:55:54 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/menu.php on line 291
+[18-Feb-2014 12:56:19 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/menu.php on line 291
+[18-Feb-2014 13:01:48 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[18-Feb-2014 13:02:26 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[18-Feb-2014 13:02:32 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[18-Feb-2014 13:34:09 CST6CDT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/dandy160/public_html/miembros.php on line 7
+[18-Feb-2014 14:17:46 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/menu.php on line 305
+[18-Feb-2014 14:19:12 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/menu.php on line 305
+[19-Feb-2014 10:24:24 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home/dandy160/public_html/menu.php on line 65
+[19-Feb-2014 10:29:28 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[19-Feb-2014 10:29:47 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[19-Feb-2014 10:33:23 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[19-Feb-2014 10:36:55 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7680 bytes) in /home/dandy160/public_html/checar_sesion_usuario.php on line 4
+[19-Feb-2014 11:21:39 CST6CDT] PHP Fatal error:  Call to undefined function busca_pares() in /home/dandy160/public_html/menu.php on line 335
+[19-Feb-2014 11:22:39 CST6CDT] PHP Fatal error:  Call to undefined function busca_pares() in /home/dandy160/public_html/menu.php on line 335
+[19-Feb-2014 11:23:02 CST6CDT] PHP Fatal error:  Call to undefined function busca_pares() in /home/dandy160/public_html/menu.php on line 335
+[19-Feb-2014 11:23:42 CST6CDT] PHP Fatal error:  Call to undefined function busca_pares() in /home/dandy160/public_html/menu.php on line 335
+[19-Feb-2014 13:53:44 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/rep_inscripcion.php on line 93
+[20-Feb-2014 15:40:25 CST6CDT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/dandy160/public_html/rep_inscripcion.php on line 12
+[21-Feb-2014 10:56:46 CST6CDT] PHP Fatal error:  Class 'Mail' not found in /home/dandy160/public_html/f_registro.php on line 205
+[21-Feb-2014 11:22:24 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/f_registro.php on line 458
+[21-Feb-2014 13:39:48 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/envia_pago.php on line 171
+[21-Feb-2014 13:43:49 CST6CDT] PHP Fatal error:  Class 'Mail' not found in /home/dandy160/public_html/envia_pago.php on line 84
+[21-Feb-2014 14:28:40 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/dandy160/public_html/envia_pago.php on line 5
+[21-Feb-2014 14:29:18 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/dandy160/public_html/envia_pago.php on line 5
+[24-Feb-2014 11:46:35 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/mail_bienvenida.php on line 95
+[24-Feb-2014 14:49:37 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/miembros.php on line 51
+[25-Feb-2014 12:11:38 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/dandy160/public_html/miembros.php on line 59
+[25-Feb-2014 12:12:00 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/dandy160/public_html/miembros.php on line 67
+[25-Feb-2014 12:27:59 CST6CDT] PHP Parse error:  syntax error, unexpected T_ELSE in /home/dandy160/public_html/miembros.php on line 68
+[25-Feb-2014 14:06:42 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/envia_pago.php on line 7
+[25-Feb-2014 14:21:24 CST6CDT] PHP Fatal error:  Function name must be a string in /home/dandy160/public_html/menu.php on line 354
+[25-Feb-2014 14:22:03 CST6CDT] PHP Fatal error:  Function name must be a string in /home/dandy160/public_html/menu.php on line 354
+[26-Feb-2014 13:45:21 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/dandy160/public_html/miembros.php on line 76
+[26-Feb-2014 14:07:04 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/miembros.php on line 83
+[26-Feb-2014 14:29:00 CST6CDT] PHP Fatal error:  Call to undefined function dep_puntos_directos() in /home/dandy160/public_html/rep_inscripcion.php on line 26
+[27-Feb-2014 12:06:16 CST6CDT] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/dandy160/public_html/f_usuarios.php on line 4
+[27-Feb-2014 12:26:39 CST6CDT] PHP Parse error:  syntax error, unexpected T_ELSE in /home/dandy160/public_html/checar_sesion_usuario.php on line 7
+[03-Mar-2014 12:06:49 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/menu.php on line 381
+[03-Mar-2014 15:01:27 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/f_usuarios.php on line 165
+[04-Mar-2014 12:39:16 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/dandy160/public_html/menu.php on line 95
+[04-Mar-2014 13:24:53 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/dandy160/public_html/menu.php on line 105
+[05-Mar-2014 11:36:59 CST6CDT] PHP Parse error:  syntax error, unexpected T_WHILE in /home/dandy160/public_html/cierre.php on line 143
+[05-Mar-2014 11:37:35 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/cierre.php on line 168
+[05-Mar-2014 12:49:45 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/cierre.php on line 12
+[05-Mar-2014 12:50:51 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ')' in /home/dandy160/public_html/miembros.php on line 8
+[05-Mar-2014 12:51:28 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/dandy160/public_html/miembros.php on line 15
+[05-Mar-2014 12:51:48 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/dandy160/public_html/miembros.php on line 25
+[05-Mar-2014 12:53:50 CST6CDT] PHP Fatal error:  Cannot redeclare busca_poblacion_act() (previously declared in /home/dandy160/public_html/miembros.php:51) in /home/dandy160/public_html/miembros.php on line 8
+[06-Mar-2014 12:47:38 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/dandy160/public_html/cierre.php on line 138
+[06-Mar-2014 13:31:30 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/dandy160/public_html/cierre.php on line 137
+[10-Mar-2014 15:17:44 CST6CDT] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home/dandy160/public_html/detalle_cierre.php on line 4
+[11-Mar-2014 11:14:30 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/detalle_cierre.php on line 99
+[11-Mar-2014 12:19:39 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/detalle_cierre.php on line 76
+[11-Mar-2014 12:30:42 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/dandy160/public_html/detalle_cierre.php on line 12
+[11-Mar-2014 14:00:35 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/menu.php on line 10
+[11-Mar-2014 14:21:33 CST6CDT] PHP Fatal error:  Out of memory (allocated 38797312) (tried to allocate 523800 bytes) in /home/dandy160/public_html/miembros.php on line 220
+[11-Mar-2014 14:54:05 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dandy160/public_html/menu.php on line 320
+[11-Mar-2014 14:54:41 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/dandy160/public_html/menu.php on line 320
+[12-Mar-2014 13:36:35 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/dandy160/public_html/arbol.php on line 40
+[12-Mar-2014 15:48:35 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/arbol.php on line 39
+[14-Mar-2014 11:51:53 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/dandy160/public_html/data.php on line 14
+[14-Mar-2014 15:36:11 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/dandy160/public_html/historial_cta.php on line 5
+[18-Mar-2014 11:39:53 CST6CDT] PHP Parse error:  syntax error, unexpected ')', expecting '&' or T_VARIABLE in /home/dandy160/public_html/miembros.php on line 58
+[18-Mar-2014 13:25:16 CST6CDT] PHP Fatal error:  Unsupported operand types in /home/dandy160/public_html/miembros.php on line 17
+[18-Mar-2014 13:25:56 CST6CDT] PHP Fatal error:  Unsupported operand types in /home/dandy160/public_html/miembros.php on line 18
+[18-Mar-2014 14:52:30 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/menu.php on line 111
+[18-Mar-2014 15:02:36 CST6CDT] PHP Parse error:  syntax error, unexpected T_ELSE in /home/dandy160/public_html/menu.php on line 123
+[19-Mar-2014 13:42:12 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/dandy160/public_html/adm_usuarios.php on line 5
+[19-Mar-2014 15:31:49 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/proceso.php on line 4
+[19-Mar-2014 15:32:22 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/proceso.php on line 4
+[19-Mar-2014 15:33:12 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/proceso.php on line 3
+[19-Mar-2014 15:34:37 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/proceso.php on line 3
+[19-Mar-2014 15:35:31 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/proceso.php on line 3
+[19-Mar-2014 15:35:56 CST6CDT] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/dandy160/public_html/proceso.php on line 7
+[20-Mar-2014 14:06:46 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/menu.php on line 511
+[21-Mar-2014 12:14:51 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/menu.php on line 510
+[21-Mar-2014 12:15:17 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/menu.php on line 510
+[21-Mar-2014 12:15:53 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/dandy160/public_html/menu.php on line 510
+[24-Mar-2014 14:54:31 CST6CDT] PHP Parse error:  syntax error, unexpected $end in /home/dandy160/public_html/canjear.php on line 13
+[24-Mar-2014 15:42:14 CST6CDT] PHP Parse error:  syntax error, unexpected '{' in /home/dandy160/public_html/menu.php on line 601
+[25-Mar-2014 12:43:30 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/dandy160/public_html/canjear.php on line 17
+[25-Mar-2014 12:43:56 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/canjear.php on line 26
+[25-Mar-2014 12:44:12 CST6CDT] PHP Parse error:  syntax error, unexpected '"' in /home/dandy160/public_html/canjear.php on line 41
+[25-Mar-2014 12:44:38 CST6CDT] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/dandy160/public_html/canjear.php on line 44
+[25-Mar-2014 12:53:37 CST6CDT] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/dandy160/public_html/canjear.php on line 25
+[25-Mar-2014 13:01:32 CST6CDT] PHP Fatal error:  Function name must be a string in /home/dandy160/public_html/canjear.php on line 18
+[25-Mar-2014 14:03:57 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/dandy160/public_html/menu.php on line 135
+[25-Mar-2014 14:49:30 CST6CDT] PHP Parse error:  syntax error, unexpected T_ECHO in /home/dandy160/public_html/menu.php on line 403
