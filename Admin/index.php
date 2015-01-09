@@ -1,7 +1,7 @@
 <?php
 
 
-redirect("http://Dandy.mx/index.php/welcome/adminBase");
+redirect("../index.php/welcome/adminBase");
 
 	
 

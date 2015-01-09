@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 if($_SESSION['id_empresa']=="" || $_SESSION['tipo_usuario']==""){
 	include "index.php";

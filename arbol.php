@@ -176,9 +176,9 @@ if(navigator.userAgent.indexOf("MSIE")>0)
 
 {
 
-document.write(' <link rel="stylesheet" href="http://www.dandy.mx/assets/css/admonStylesE.css" /> ');
+document.write(' <link rel="stylesheet" href="assets/css/admonStylesE.css" /> ');
 
-document.write(' <link rel="stylesheet" href="http://www.dandy.mx/assets/css/lugarStylesE.css" /> ');
+document.write(' <link rel="stylesheet" href="assets/css/lugarStylesE.css" /> ');
 
 }
 
@@ -186,9 +186,9 @@ else
 
 {
 
-document.write(' <link rel="stylesheet" href="http://www.dandy.mx/assets/css/admonStyles.css" /> ');
+document.write(' <link rel="stylesheet" href="assets/css/admonStyles.css" /> ');
 
-document.write(' <link rel="stylesheet" href="http://www.dandy.mx/assets/css/lugarStyles.css" /> ');
+document.write(' <link rel="stylesheet" href="assets/css/lugarStyles.css" /> ');
 
 
 
@@ -254,7 +254,7 @@ a.nounderline:link
 
 <ul id="org" style="display:none">
 
-	<li><span style="color:#c7551f;"><? echo "<img src='images/$ima' /><br>$nombre<br><p>$rango</p>";?></span>
+	<li><span style="color:#c7551f;"><?php echo "<img src='images/$ima' /><br>$nombre<br><p>$rango</p>";?></span>
 
 		<?php echo rama_abajo($usuario);?>
 

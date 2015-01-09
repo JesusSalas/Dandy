@@ -944,7 +944,7 @@ $.fn.colorbox.close();
 
                     <td><img src="images/spacer.gif" width="130" height="13" /></td>
 
-                    <td><a href="arbol.php?id=<?php echo"$usuario";?>" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image23','','../images/b_lista_r.png',1)"><img title="Ver Árbol Completo" alt="Ver Árbol Completo" src="images/b_lista.png" name="Image23" width="20" height="24" border="0" id="Image23" /></a></td>
+                    <td><a href="arbol.php?id=<?php echo"$usuario";?>" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image23','','images/b_lista_r.png',1)"><img title="Ver Árbol Completo" alt="Ver Árbol Completo" src="images/b_lista.png" name="Image23" width="20" height="24" border="0" id="Image23" /></a></td>
 
                   </tr>
 

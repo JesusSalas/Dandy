@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 include "coneccion.php";
 if($_SESSION['id_empresa']=="" || $_SESSION['tipo_usuario']==""){
