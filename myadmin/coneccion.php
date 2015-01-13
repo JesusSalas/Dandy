@@ -1,6 +1,7 @@
 <?php
 
 	$enlace = mysql_connect('localhost', 'dandy160_app', 'mydandy160');
+	mysql_set_charset('UTF8',$enlace);
 
 	if (!$enlace) { 
 
