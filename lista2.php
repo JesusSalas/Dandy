@@ -1,5 +1,7 @@
 <?php
-
+session_start();
+if(!isset($_SESSION['usuario']))
+  include('checar_sesion_usuario.php');
 
 
 include "coneccion.php";

@@ -1,14 +1,13 @@
 $(document).ready(init);
 function init(){
-	
-	
+
 	var	heigthLogo = 300;
 	var heigthImg = 550;
 	var heigthFachada = 250;
 	var heigthPromo = 250;
 	var heigthSlider = 254;
 	var heigthMenu = 100;
-//	action: '../../assets/ups/logos.php',
+//	action: '../assets/ups/logos.php',
 	new AjaxUpload('logoUpload', {
 		action: '../../assets/ups/upload_only_logos.php?folder=fotos&nombre=Logo&heigth='+heigthLogo,
 		name: 'userfile',
@@ -28,7 +27,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'logo');
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("width", '128');
 			elemImg.setAttribute("height", '128');
 //			elemImg.setAttribute("style", "height: 300" + height + "px; width:" + width + "px;");
@@ -58,7 +57,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'logoMediano');
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("width", '227');
 			elemImg.setAttribute("height", '208');
 //			elemImg.setAttribute("style", "height: 300" + height + "px; width:" + width + "px;");
@@ -89,7 +88,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'fachada');
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 //			elemImg.setAttribute("style", "height:" + height + "px; width:" + width + "px;");
 			
 			document.getElementById("fachadaImg").appendChild(elemImg);
@@ -118,7 +117,7 @@ function init(){
 				elemImg = document.createElement('img');
 				elemImg.setAttribute("id", 'imgSlider');
 			}
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 //			elemImg.setAttribute("style", "height:" + height + "px; width:" + width + "px;");
 			
 			document.getElementById("sliderImg").appendChild(elemImg);
@@ -127,7 +126,7 @@ function init(){
 	});
 	
 	
-	var actionImg = '../../assets/ups/logos_resize.php?folder=fotos&heigth=' + heigthImg + '&nombre=Img';
+	var actionImg = '../assets/ups/logos_resize.php?folder=fotos&heigth=' + heigthImg + '&nombre=Img';
 	
 	new AjaxUpload('img1Upload', {
 		action: actionImg+'1',
@@ -149,7 +148,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_' + 1);
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets/' + response);
 			elemImg.setAttribute("style", "width:" + 300 + "px;");
 			
 			document.getElementById("img1").appendChild(elemImg);
@@ -177,7 +176,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_' + 2);
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("style", "width:" + 300 + "px;");
 			
 			document.getElementById("img2").appendChild(elemImg);
@@ -206,7 +205,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_' + 3);
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("style", "width:" + 300 + "px;");
 			
 			document.getElementById("img3").appendChild(elemImg);
@@ -234,7 +233,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_' + 4);
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("style", "width:" + 300 + "px;");
 			
 			document.getElementById("img4").appendChild(elemImg);
@@ -262,15 +261,154 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_' + 5);
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets' + response);
+			elemImg.setAttribute("src", '../../assets' + response);
 			elemImg.setAttribute("style", "width:" + 300 + "px;");
 			
 			document.getElementById("img5").appendChild(elemImg);
 			$('#Imagen5').val('' + response);
 		}
 	});
+
+	new AjaxUpload('img6Upload', {
+		action: actionImg+'1',
+		name: 'userfile',
+		onSubmit: function(file, extension) {
+			if (!(extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+				// extension is not allowed
+				alert('Error: invalid file extension');
+				// cancel upload
+				return false;
+			}
+		},
+		onComplete: function(file, response) {
+			
+			var elemImg = null;
+			if( $("#img_6").length > 0 ){
+				elemImg = document.getElementById('img_6');
+			} else{
+				elemImg = document.createElement('img');
+			}
+			elemImg.setAttribute("id", 'img_' + 6);
+			elemImg.setAttribute("src", '../../assets' + response);
+			elemImg.setAttribute("style", "width:" + 300 + "px;");
+			
+			document.getElementById("img6").appendChild(elemImg);
+			$('#Imagen6').val('' + response);
+		}
+	});
 	
+	new AjaxUpload('img7Upload', {
+		action: actionImg+'7',
+		name: 'userfile',
+		onSubmit: function(file, extension) {
+			if (!(extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+				// extension is not allowed
+				alert('Error: invalid file extension');
+				// cancel upload
+				return false;
+			}
+		},
+		onComplete: function(file, response) {
+			
+			var elemImg = null;
+			if( $("#img_7").length > 0 ){
+				elemImg = document.getElementById('img_7');
+			} else{
+				elemImg = document.createElement('img');
+			}
+			elemImg.setAttribute("id", 'img_' + 7);
+			elemImg.setAttribute("src", '../../assets' + response);
+			elemImg.setAttribute("style", "width:" + 300 + "px;");
+			
+			document.getElementById("img7").appendChild(elemImg);
+			$('#Imagen7').val('' + response);
+			document.getElementById("img7").height = elemImg.innerHeight;
+		}
+	});
 	
+	new AjaxUpload('img8Upload', {
+		action: actionImg+'8',
+		name: 'userfile',
+		onSubmit: function(file, extension) {
+			if (!(extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+				// extension is not allowed
+				alert('Error: invalid file extension');
+				// cancel upload
+				return false;
+			}
+		},
+		onComplete: function(file, response) {
+			
+			var elemImg = null;
+			if( $("#img_8").length > 0 ){
+				elemImg = document.getElementById('img_8');
+			} else{
+				elemImg = document.createElement('img');
+			}
+			elemImg.setAttribute("id", 'img_' + 8);
+			elemImg.setAttribute("src", '../../assets' + response);
+			elemImg.setAttribute("style", "width:" + 300 + "px;");
+			
+			document.getElementById("img8").appendChild(elemImg);
+			$('#Imagen8').val('' + response);
+		}
+	});
+	
+	new AjaxUpload('img9Upload', {
+		action: actionImg+'9',
+		name: 'userfile',
+		onSubmit: function(file, extension) {
+			if (!(extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+				// extension is not allowed
+				alert('Error: invalid file extension');
+				// cancel upload
+				return false;
+			}
+		},
+		onComplete: function(file, response) {
+			
+			var elemImg = null;
+			if( $("#img_9").length > 0 ){
+				elemImg = document.getElementById('img_9');
+			} else{
+				elemImg = document.createElement('img');
+			}
+			elemImg.setAttribute("id", 'img_' + 9);
+			elemImg.setAttribute("src", '../../assets' + response);
+			elemImg.setAttribute("style", "width:" + 300 + "px;");
+			
+			document.getElementById("img9").appendChild(elemImg);
+			$('#Imagen9').val('' + response);
+		}
+	});
+	
+	new AjaxUpload('img10Upload', {
+		action: actionImg+'10',
+		name: 'userfile',
+		onSubmit: function(file, extension) {
+			if (!(extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+				// extension is not allowed
+				alert('Error: invalid file extension');
+				// cancel upload
+				return false;
+			}
+		},
+		onComplete: function(file, response) {
+			
+			var elemImg = null;
+			if( $("#img_10").length > 0 ){
+				elemImg = document.getElementById('img_10');
+			} else{
+				elemImg = document.createElement('img');
+			}
+			elemImg.setAttribute("id", 'img_' + 10);
+			elemImg.setAttribute("src", '../../assets' + response);
+			elemImg.setAttribute("style", "width:" + 300 + "px;");
+			
+			document.getElementById("img10").appendChild(elemImg);
+			$('#Imagen10').val('' + response);
+		}
+	});
 	
 	new AjaxUpload('menuUpload', {
 		action: '../../assets/ups/menu_upload.php?folder=fotos&heigth='+heigthMenu,
@@ -296,7 +434,7 @@ function init(){
 			counterMenuImg++;
 			elemImg.setAttribute("id", 'menuImg');
 			elemImg.setAttribute("name", 'menuImg');
-			elemImg.setAttribute("src", '../assets' + names[1]);
+			elemImg.setAttribute("src", '../../assets' + names[1]);
 			elemImg.setAttribute("style", "width:" + 200 + "px;border-color:#FFF;");
 			elemImg.setAttribute("boder", "1");
 			
@@ -342,7 +480,7 @@ function init(){
 				elemImg = document.createElement('img');
 			}
 			elemImg.setAttribute("id", 'img_promo');
-			elemImg.setAttribute("src", 'http://Dandy.mx/assets/promos/' + response);
+			elemImg.setAttribute("src", '../../assets/promos/' + response);
 //			elemImg.setAttribute("style", "height:" + height + "px; width:" + width + "px;");
 			
 			document.getElementById("fachadaImg").appendChild(elemImg);

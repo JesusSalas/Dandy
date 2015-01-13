@@ -1,4 +1,4 @@
-<?
+<?php 
 
 session_start();
 
@@ -49,7 +49,7 @@ if(@mysql_num_rows($resultado)>=1)
 <script src="imgs/jquery-1.6.1.js" type="text/javascript"></script>
 <script src="imgs/fileuploader.js" type="text/javascript"></script>
 <!--<script src="imgs/upload_images.js" type="text/javascript"></script>-->
-<script src="../assets/jQuery/funciones.js" type="text/javascript"></script>
+<script src="assets/jQuery/funciones.js" type="text/javascript"></script>
 <script src="imgs/upload_images_empresa.js" type="text/javascript"></script>
 
 <title>Untitled Document</title>
@@ -70,7 +70,7 @@ if(@mysql_num_rows($resultado)>=1)
 
 </head>
 
-<?
+<?php 
 
 //$guardar= $_POST["guardar"];
 
@@ -298,7 +298,7 @@ WHERE idEmpresa = $idEmpresa";
 
            	<label class="Lbl">Usuario:</label>
 
-              <label class="smallTxtLbl" id="Usuario" ><? echo $empresa_info[21] ?></label>
+              <label class="smallTxtLbl" id="Usuario" ><?php  echo $empresa_info[21] ?></label>
 
           </div>
 
@@ -306,7 +306,7 @@ WHERE idEmpresa = $idEmpresa";
 
            	<label class="Lbl">Password:</label>
 
-              <input name="Password" type="password" class="smallTxt" id="Password" value="<? echo $empresa_info[22] ?>">
+              <input name="Password" type="password" class="smallTxt" id="Password" value="<?php  echo $empresa_info[22] ?>">
 
           </div>
 
@@ -314,7 +314,7 @@ WHERE idEmpresa = $idEmpresa";
 
            	<label class="Lbl">Password mostrador:</label>
 
-              <input name="Password_mostrador" type="password" class="smallTxt" id="Password_mostrador" value="<? echo $empresa_info[29] ?>">
+              <input name="Password_mostrador" type="password" class="smallTxt" id="Password_mostrador" value="<?php  echo $empresa_info[29] ?>">
 
           </div>
 
@@ -322,7 +322,7 @@ WHERE idEmpresa = $idEmpresa";
 
            	<label class="Lbl">Nombre:</label>
 
-              <label class="smallTxtLbl" name="Nombre" id="Nombre" ><? echo $empresa_info[1] ?></label>
+              <label class="smallTxtLbl" name="Nombre" id="Nombre" ><?php  echo $empresa_info[1] ?></label>
 
           </div>
 
@@ -330,7 +330,7 @@ WHERE idEmpresa = $idEmpresa";
 
            	<label class="Lbl">Teléfono:</label>
 
-              <input name="Telefono" type="text" class="smallTxt" id="Telefono" value="<? echo $empresa_info[4] ?>">
+              <input name="Telefono" type="text" class="smallTxt" id="Telefono" value="<?php  echo $empresa_info[4] ?>">
 
           </div>
 
@@ -338,7 +338,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Dirección:</label>
 
-                <input type="text" class="smallTxt" id="Direccion" name="Direccion" value="<? echo $empresa_info[2]?>">
+                <input type="text" class="smallTxt" id="Direccion" name="Direccion" value="<?php  echo $empresa_info[2]?>">
 
             </div>
 
@@ -346,7 +346,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Referencia:</label>
 
-                <input type="text" class="smallTxt" id="Referencia" name="Referencia"  value="<? echo $empresa_info[3]?>">
+                <input type="text" class="smallTxt" id="Referencia" name="Referencia"  value="<?php  echo $empresa_info[3]?>">
 
             </div>
 
@@ -354,7 +354,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Horario:</label>
 
-                <input type="text" class="smallTxt" id="Horario" name="Horario" value="<? echo $empresa_info[6]?>">
+                <input type="text" class="smallTxt" id="Horario" name="Horario" value="<?php  echo $empresa_info[6]?>">
 
             </div>
 
@@ -362,7 +362,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">E-mail:</label>
 
-                <input type="text" class="smallTxt" id="Contacto" name="Contacto" value="<? echo $empresa_info[5]?>">
+                <input type="text" class="smallTxt" id="Contacto" name="Contacto" value="<?php  echo $empresa_info[5]?>">
 
             </div>
 
@@ -370,7 +370,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Web:</label>
 
-                <input type="text" class="smallTxt" id="WebImagen" name="Web"  value="<? echo $empresa_info[7]?>">
+                <input type="text" class="smallTxt" id="WebImagen" name="Web"  value="<?php  echo $empresa_info[7]?>">
 
             </div>
 
@@ -378,7 +378,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Facebook:</label>
 
-                <input type="text" class="smallTxt" id="FacebookImagen" name="Facebook" value="<? echo $empresa_info[8]?>">
+                <input type="text" class="smallTxt" id="FacebookImagen" name="Facebook" value="<?php  echo $empresa_info[8]?>">
 
             </div>
 
@@ -386,7 +386,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Twitter:</label>
 
-                <input type="text" class="smallTxt" id="TwitterImagen" name="Twitter" value="<? echo $empresa_info[9]?>">
+                <input type="text" class="smallTxt" id="TwitterImagen" name="Twitter" value="<?php  echo $empresa_info[9]?>">
 
             </div>
 
@@ -396,7 +396,7 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">T&iacute;tulo secci&oacute;n men&uacute;:</label>
 
-                <input type="text" class="smallTxt" id="nombre_menuImagen" name="nombre_menuImagen" value="<? echo $empresa_info[34]?>" />
+                <input type="text" class="smallTxt" id="nombre_menuImagen" name="nombre_menuImagen" value="<?php  echo $empresa_info[34]?>" />
 
             </div>
 
@@ -404,9 +404,9 @@ WHERE idEmpresa = $idEmpresa";
 
             	<label class="Lbl">Mapa:</label>
 
-                <iframe width="400" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<? echo $empresa_info[11];?>&output=embed"></iframe><br />
+                <iframe width="400" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php  echo $empresa_info[11];?>&output=embed"></iframe><br />
 
-                <!--<label class="bigTxt" id="Mapa" name="Mapa"><? echo $empresa_info[11]?></label>-->
+                <!--<label class="bigTxt" id="Mapa" name="Mapa"><?php  echo $empresa_info[11]?></label>-->
 
             </div>
 
@@ -434,17 +434,17 @@ WHERE idEmpresa = $idEmpresa";
 
             	</label>
 
-                <? 
+                <?php  
 
 				$logo = str_replace(" ","%20",$empresa_info[14]);?>
 
             	<div align="center" class="logoImg" id="logoImg" style="border:none">
 
-				<? if($empresa_info[14]!=""){?>
+				<?php  if($empresa_info[14]!=""){?>
 
-                <img id="logo" src="/assets<? echo $logo;?>">
+                <img id="logo" src="../assets<?php  echo $logo;?>">
 
-				<? }?></div>
+				<?php  }?></div>
 
             </div>
 
@@ -460,9 +460,9 @@ WHERE idEmpresa = $idEmpresa";
 
             <div align="left" class="fachadaImg" id="fachadaImg" style="border:inherit;" >
 
-           <? if($empresa_info[10]!=""){?>
+           <?php  if($empresa_info[10]!=""){?>
 
-            <img id="fachada" src="/assets<? echo str_replace(" ","%20",$empresa_info[10]);?>"
+            <img id="fachada" src="../assets<?php  echo str_replace(" ","%20",$empresa_info[10]);?>"
 
             	style="margin-top:10px;
 
@@ -476,7 +476,7 @@ WHERE idEmpresa = $idEmpresa";
 
                         max-width: 300px;"/>
 
-			<? }?>
+			<?php  }?>
 
             </div>
 
@@ -504,7 +504,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
     margin-top: 15px;
 
-"><? echo $empresa_info[13]?></textarea>
+"><?php  echo $empresa_info[13]?></textarea>
 
        </div>
 
@@ -522,7 +522,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         <label class="Lbl" style="width:200px">Puntos</label>
 
-        <input class="smallTxt" name="puntos_normal" style="width:50px" type="number" id="puntos_normal_imagen" value="<? echo $empresa_info[26]?>"/>
+        <input class="smallTxt" name="puntos_normal" style="width:50px" type="number" id="puntos_normal_imagen" value="<?php  echo $empresa_info[26]?>"/>
 
         <label class="Lbl" style="width:10px;margin-top:0">%</label>
 
@@ -530,7 +530,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         	<label class="Lbl" style="width:auto; float:none;">Beneficios</label><br />
 
-      <textarea class="promoTxt" id="promocion_normal"  name="promocion_normal" ><? echo $empresa_info[24]?></textarea>
+      <textarea class="promoTxt" id="promocion_normal"  name="promocion_normal" ><?php  echo $empresa_info[24]?></textarea>
 
       </div>
 
@@ -544,7 +544,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         	<label class="Lbl" style="width:auto;float: none;">Vigencia</label><br />
 
-            <textarea class="promoTxt" id="vigencia_deluximagen" name="vigencia_delux"><? echo $empresa_info[30]?></textarea>
+            <textarea class="promoTxt" id="vigencia_deluximagen" name="vigencia_delux"><?php  echo $empresa_info[30]?></textarea>
 
        </div>
 
@@ -576,7 +576,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         <label class="Lbl" style="width:200px">Puntos</label>
 
-        <input class="smallTxt" name="puntos_diamante" style="width:50px" type="number" id="puntos_diamante_imagen" value="<? echo $empresa_info[26]?>"/>
+        <input class="smallTxt" name="puntos_diamante" style="width:50px" type="number" id="puntos_diamante_imagen" value="<?php  echo $empresa_info[26]?>"/>
 
         <label class="Lbl" style="width:10px;margin-top:0">%</label>
 
@@ -584,7 +584,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         	<label class="Lbl" style="width:auto; float:none;">Beneficios</label><br />
 
-      <textarea class="promoTxt" id="promocion_diamante"  name="promocion_diamante" ><? echo $empresa_info[24]?></textarea>
+      <textarea class="promoTxt" id="promocion_diamante"  name="promocion_diamante" ><?php  echo $empresa_info[24]?></textarea>
 
       </div>
 
@@ -598,7 +598,7 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
         	<br /><label class="Lbl" style="width:auto;float: none;">Vigencia</label><br />
 
-            <textarea class="promoTxt" id="vigencia_diamanteimagen" name="vigencia_diamante" style="float: none;"><? echo $empresa_info[30]?></textarea>
+            <textarea class="promoTxt" id="vigencia_diamanteimagen" name="vigencia_diamante" style="float: none;"><?php  echo $empresa_info[30]?></textarea>
 
        </div>
 
@@ -624,11 +624,11 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
             <div align="center" class="sliderImg" id="img1">
 
-              <? if($empresa_info[16]!=""){?>
+              <?php  if($empresa_info[16]!=""){?>
 
-              <img  style="width:200px;" src="/assets<? echo str_replace(" ","%20",$empresa_info[16]);?>" alt="" id="img_1"/>
+              <img  style="width:200px;" src="../assets<?php  echo str_replace(" ","%20",$empresa_info[16]);?>" alt="" id="img_1"/>
 
-              <? }?>
+              <?php  }?>
 
             </div>
 
@@ -642,11 +642,11 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
             <div align="center" class="sliderImg" id="img2" >
 
-              <? if($empresa_info[17]!=""){?>
+              <?php  if($empresa_info[17]!=""){?>
 
-              <img style="width:200px;"  src="/assets<? echo str_replace(" ","%20",$empresa_info[17]);?>" alt="" id="img_2"/>
+              <img style="width:200px;"  src="../assets<?php  echo str_replace(" ","%20",$empresa_info[17]);?>" alt="" id="img_2"/>
 
-              <? }?>
+              <?php  }?>
 
             </div>
 
@@ -660,11 +660,11 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
             <div align="center" class="sliderImg" id="img3">
 
-              <? if($empresa_info[18]!=""){?>
+              <?php  if($empresa_info[18]!=""){?>
 
-              <img style="width:200px;"  src="/assets<? echo str_replace(" ","%20",$empresa_info[18]);?>" alt="" id="img_3"/>
+              <img style="width:200px;"  src="../assets<?php  echo str_replace(" ","%20",$empresa_info[18]);?>" alt="" id="img_3"/>
 
-              <? }?>
+              <?php  }?>
 
             </div>
 
@@ -678,11 +678,11 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
             <div align="center" class="sliderImg" id="img4">
 
-              <? if($empresa_info[19]!=""){?>
+              <?php  if($empresa_info[19]!=""){?>
 
-              <img style="width:200px;"  src="/assets<? echo str_replace(" ","%20",$empresa_info[19]);?>" alt="" id="img_4"/>
+              <img style="width:200px;"  src="../assets<?php  echo str_replace(" ","%20",$empresa_info[19]);?>" alt="" id="img_4"/>
 
-              <? }?>
+              <?php  }?>
 
             </div>
 
@@ -696,11 +696,11 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
             <div align="center" class="sliderImg" id="img5">
 
-              <? if($empresa_info[20]!=""){?>
+              <?php  if($empresa_info[20]!=""){?>
 
-              <img  style="width:200px;" src="/assets<? echo str_replace(" ","%20",$empresa_info[20]);?>" alt="" id="img_5" />
+              <img  style="width:200px;" src="../assets<?php  echo str_replace(" ","%20",$empresa_info[20]);?>" alt="" id="img_5" />
 
-              <? }?>
+              <?php  }?>
 
             </div>
 
@@ -722,9 +722,9 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
       <div align="center" class="sliderImage" id="sliderImg" style="border:none">
 
-           <? if($empresa_info[23]!=""){?>
+           <?php  if($empresa_info[23]!=""){?>
 
-            <img  id="slider_principal" src="/assets<? echo str_replace(" ","%20",$empresa_info[23]);?>" style="margin-top:10px;
+            <img  id="slider_principal" src="../assets<?php  echo str_replace(" ","%20",$empresa_info[23]);?>" style="margin-top:10px;
 
                 		-webkit-border-radius: 10px;
 
@@ -734,27 +734,27 @@ background-color: rgba(0, 0, 0, 0.25);height: 139px;
 
                         margin-left:5px;"/>
 
-			<? }?>
+			<?php  }?>
 
             </div>
 
         </div>
 
-        <input type="hidden" id="Logo" name="Logo" value="<? echo str_replace(" ","%20",$empresa_info[14]);?>">
+        <input type="hidden" id="Logo" name="Logo" value="<?php  echo str_replace(" ","%20",$empresa_info[14]);?>">
 
-        <input type="hidden" id="Foto" name="Foto" value="<? echo str_replace(" ","%20",$empresa_info[10]);?>">
+        <input type="hidden" id="Foto" name="Foto" value="<?php  echo str_replace(" ","%20",$empresa_info[10]);?>">
 
-        <input type="hidden" id="Imagen1" name="Imagen1" value="<? echo str_replace(" ","%20",$empresa_info[16]);?>">
+        <input type="hidden" id="Imagen1" name="Imagen1" value="<?php  echo str_replace(" ","%20",$empresa_info[16]);?>">
 
-        <input type="hidden" id="Imagen2" name="Imagen2" value="<? echo str_replace(" ","%20",$empresa_info[17]);?>">
+        <input type="hidden" id="Imagen2" name="Imagen2" value="<?php  echo str_replace(" ","%20",$empresa_info[17]);?>">
 
-        <input type="hidden" id="Imagen3" name="Imagen3" value="<? echo str_replace(" ","%20",$empresa_info[18]);?>">
+        <input type="hidden" id="Imagen3" name="Imagen3" value="<?php  echo str_replace(" ","%20",$empresa_info[18]);?>">
 
-        <input type="hidden" id="Imagen4" name="Imagen4" value="<? echo str_replace(" ","%20",$empresa_info[19]);?>">
+        <input type="hidden" id="Imagen4" name="Imagen4" value="<?php  echo str_replace(" ","%20",$empresa_info[19]);?>">
 
-        <input type="hidden" id="Imagen5" name="Imagen5" value="<? echo str_replace(" ","%20",$empresa_info[20]);?>">
+        <input type="hidden" id="Imagen5" name="Imagen5" value="<?php  echo str_replace(" ","%20",$empresa_info[20]);?>">
 
-        <input type="hidden" id="imagenSlider" name="imagenSlider" value="<? echo str_replace(" ","%20",$empresa_info[23]);?>">
+        <input type="hidden" id="imagenSlider" name="imagenSlider" value="<?php  echo str_replace(" ","%20",$empresa_info[23]);?>">
 
         
 

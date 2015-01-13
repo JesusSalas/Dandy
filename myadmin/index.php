@@ -77,7 +77,6 @@ if($_POST['entrar']!="")
 
 		$res2 = mysql_query($consulta2) or die("La consulta fall&oacute;P2: " );//. mysql_error()." <br> $consulta");
 
-echo $consulta;
 
 		if(@mysql_num_rows($res)==1){
 
