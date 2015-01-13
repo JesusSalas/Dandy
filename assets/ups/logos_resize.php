@@ -34,6 +34,7 @@ if( in_array($extension, $allowedExts) ){
 	$image->save('..'.$uploadfile);
 	
 	echo $uploadfile;
+	exit():
 	
 
 }
